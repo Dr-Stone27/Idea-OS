@@ -1,0 +1,12 @@
+{
+  "name": "Circle of Competence",
+  "bucket": [
+    "cross-domain"
+  ],
+  "what_it_is": "Knowing exactly what you know well, what you know partially, and what you don't know - making decisions inside your circle, being cautious at its edges.",
+  "core_mechanic": "For the decision domain, map: \"what do I know from direct experience?\", \"what do I know from study?\", \"what am I assuming I know but haven't tested?\", \"where am I operating beyond my knowledge?\" The boundary matters more than the size.",
+  "when_to_use": "Any high-stakes decision, especially in a domain where you have partial expertise. Prevents overconfidence bias.",
+  "when_not_to_use": "When the domain is genuinely within your core competence and the decision is clear.",
+  "ideaos_application": "Agent 3 maps the person's implied circle of competence from the input and flags where the recommended action requires operating at the edge or outside it. Feeds directly into Agent 4's Assumption Risk score.",
+  "cross_domain_variants": []
+}

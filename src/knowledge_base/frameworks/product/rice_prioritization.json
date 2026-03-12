@@ -1,0 +1,12 @@
+{
+  "name": "RICE Prioritization",
+  "bucket": [
+    "product"
+  ],
+  "what_it_is": "A scoring model for ranking initiatives - Reach x Impact x Confidence / Effort.",
+  "core_mechanic": "Score each dimension. Divide product by effort. Rank by score.",
+  "when_to_use": "Backlog needs defensible prioritization / Stakeholders pushing competing initiatives / Need to communicate tradeoffs to non-product people",
+  "when_not_to_use": "Only one initiative to evaluate / Confidence scores universally low / Early discovery phase / Strategic bets (some low-RICE things are still right to do)",
+  "ideaos_application": "Agent 3 scores the initiative AND surfaces which assumptions each score depends on. Skeptic challenges map onto the weakest RICE components.",
+  "cross_domain_variants": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Narrative Structure (Story Spine)",
+  "bucket": [
+    "creative"
+  ],
+  "what_it_is": "Structuring any communication as a story - \"Once upon a time... Every day... Until one day... Because of that... Until finally... Ever since then...\"",
+  "core_mechanic": "Fill in each prompt. Forces you to define: status quo, disruption, consequence chain, resolution, new normal. Works for product narratives, pitches, change communications.",
+  "when_to_use": "Preparing a presentation or pitch / Communicating a product vision or change / When content is right but landing flat",
+  "when_not_to_use": "Internal analysis documents / When the audience needs data not story",
+  "ideaos_application": "Agent 3 maps the input to the Story Spine template, identifies where the narrative breaks down or loses tension, rewrites the weakest section.",
+  "cross_domain_variants": []
+}

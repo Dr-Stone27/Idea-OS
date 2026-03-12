@@ -1,0 +1,12 @@
+{
+  "name": "OODA Loop",
+  "bucket": [
+    "decision"
+  ],
+  "what_it_is": "A decision cycle - Observe, Orient, Decide, Act - for fast-moving or time-sensitive decisions.",
+  "core_mechanic": "Observe (gather data), Orient (analyze and contextualize - the most important step), Decide (select action), Act (execute). Speed matters but accuracy of Orientation matters more.",
+  "when_to_use": "Fast-moving competitive situations / Reacting to context change / Stuck in analysis paralysis",
+  "when_not_to_use": "Long-horizon strategic decisions / Haven't done the Observation step / Decisions requiring deep deliberation",
+  "ideaos_application": "Agent 3 maps the input against each step - what's been Observed, where Orientation is incomplete, what decision is available now, what the first Act should be.",
+  "cross_domain_variants": []
+}

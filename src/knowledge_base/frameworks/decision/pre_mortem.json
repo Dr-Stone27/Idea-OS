@@ -1,0 +1,16 @@
+{
+  "name": "Pre-Mortem",
+  "bucket": [
+    "decision"
+  ],
+  "what_it_is": "Assumes a decision has failed 12 months from now and works backward to find the causes.",
+  "core_mechanic": "\"It is 12 months from now. This failed completely. What happened?\" Generate specific failure causes. Rank by likelihood x severity. These become risks to mitigate.",
+  "when_to_use": "Before committing to a major decision / Optimism bias is high / Everyone is aligned but nobody has articulated what could go wrong",
+  "when_not_to_use": "After an irreversible decision / For small reversible decisions / When the team is already demoralized",
+  "ideaos_application": "Agent 3 generates 5 specific failure scenarios, ranks by likelihood x severity, for each identifies one concrete mitigation action.",
+  "cross_domain_variants": [
+    "Personal decisions",
+    "strategic planning",
+    "project launches"
+  ]
+}

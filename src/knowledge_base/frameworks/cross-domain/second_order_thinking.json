@@ -1,0 +1,12 @@
+{
+  "name": "Second-Order Thinking",
+  "bucket": [
+    "cross-domain"
+  ],
+  "what_it_is": "Asking not just \"what happens next?\" (first-order) but \"what happens after that?\" and \"what happens after that?\"",
+  "core_mechanic": "Write the first-order consequence. Ask what that causes. Ask what that causes. Second and third-order effects are where surprises live - both bad ones you didn't anticipate and good ones you didn't see.",
+  "when_to_use": "Any decision with significant consequences. Especially when an option looks obviously good at first-order and nobody is questioning it.",
+  "when_not_to_use": "When failure modes are already obvious and the forward analysis is underdeveloped.",
+  "ideaos_application": "Agent 3 runs second and third-order analysis on the recommended direction. Specifically looks for second-order effects that contradict the first-order benefit.",
+  "cross_domain_variants": []
+}

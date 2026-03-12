@@ -1,0 +1,12 @@
+{
+  "name": "Systems Thinking (Causal Loop Diagrams)",
+  "bucket": [
+    "diagnosis"
+  ],
+  "what_it_is": "Understanding problems caused by feedback loops and system dynamics rather than linear cause-effect chains.",
+  "core_mechanic": "Map key variables. Draw influence arrows. Label loops as reinforcing (R) or balancing (B). Identify the dominant loop. Find leverage points where small changes produce large effects.",
+  "when_to_use": "Problem recurs despite apparent fixes (a balancing loop is resisting change) / An intervention made things worse / The problem feels \"systemic\" / Long-standing organizational problems",
+  "when_not_to_use": "Acute one-time failures / Not enough system understanding to map variables / Quick diagnosis needed",
+  "ideaos_application": "Agent 3 maps 3-5 most important variables, identifies the dominant loop type, locates the highest-leverage intervention point. Explains why previous attempts may have failed.",
+  "cross_domain_variants": []
+}

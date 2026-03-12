@@ -1,0 +1,12 @@
+{
+  "name": "Mental Model Mapping",
+  "bucket": [
+    "learning"
+  ],
+  "what_it_is": "Building explicit representations of how a system works - mapping inputs, mechanisms, feedback loops, and outputs.",
+  "core_mechanic": "Define system boundary. Map key variables. Draw relationships. Identify feedback loops (reinforcing vs. balancing). Test by running hypothetical changes. Refine until it matches reality.",
+  "when_to_use": "Trying to understand a complex domain you're new to / Explaining why something keeps happening despite fixes / Building intuition before making decisions",
+  "when_not_to_use": "A simpler linear explanation is sufficient / Need to act fast",
+  "ideaos_application": "Agent 3 drafts the mental model for the domain - key variables, relationships, most important feedback loop. Identifies where the person's current mental model is likely incomplete.",
+  "cross_domain_variants": []
+}

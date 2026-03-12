@@ -6,7 +6,19 @@ from src.agents.listener import run_listener
 from src.agents.skeptic import run_skeptic
 from src.agents.architect import run_architect
 from src.agents.judge import run_judge
+from src.agents.judge import run_judge
 from src.agents.strategist import run_strategist
+from src.rag import search
+
+def retrieve_context(state: IdeaOSState) -> dict:
+    """Pre-pipeline context retrieval. Injects framework schemas before Architect runs."""
+    print("--- PRE-PIPELINE: RETRIEVING CONTEXT ---")
+    raw_input = state["raw_input"]
+    bucket = state["router_tags"].framework_bucket
+    
+    # Retrieve top 5 from classification bucket + top 2 cross-domain
+    framework_context = search(query=raw_input, bucket=bucket, top_k=5)
+    return {"framework_context": framework_context}
 
 def route_after_judge(state: IdeaOSState) -> str:
     """
@@ -34,6 +46,7 @@ def build_graph():
     
     # Add all 6 agents as nodes
     workflow.add_node("router", run_router)
+    workflow.add_node("retrieve_context", retrieve_context)
     workflow.add_node("listener", run_listener)
     workflow.add_node("skeptic", run_skeptic)
     workflow.add_node("architect", run_architect)
@@ -45,7 +58,8 @@ def build_graph():
 
     # Define the sequential pipeline flow
     workflow.set_entry_point("router")
-    workflow.add_edge("router", "listener")
+    workflow.add_edge("router", "retrieve_context")
+    workflow.add_edge("retrieve_context", "listener")
     workflow.add_edge("listener", "skeptic")
     workflow.add_edge("skeptic", "architect")
     workflow.add_edge("architect", "judge")

@@ -1,0 +1,12 @@
+{
+  "name": "RACI Matrix",
+  "bucket": [
+    "execution"
+  ],
+  "what_it_is": "Responsibility assignment - Responsible, Accountable, Consulted, Informed - clarifying who does what in multi-stakeholder execution.",
+  "core_mechanic": "Tasks as rows, stakeholders as columns. R (does the work), A (owns outcome - only one per row), C (input before), I (notified after). Flag rows with no A or too many R's.",
+  "when_to_use": "Cross-functional work where ownership is ambiguous / Execution is stalling and you suspect coordination not capability problems / Post-mortem reveals \"we thought someone else was handling it\"",
+  "when_not_to_use": "Solo work / Early-stage exploration / As a substitute for the alignment conversation itself",
+  "ideaos_application": "Agent 3 builds lightweight RACI for top 5-7 workstreams, names key stakeholders, flags any rows with missing accountability or over-distributed responsibility.",
+  "cross_domain_variants": []
+}

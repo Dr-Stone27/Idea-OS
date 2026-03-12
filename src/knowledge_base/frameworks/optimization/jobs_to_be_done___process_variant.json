@@ -1,0 +1,12 @@
+{
+  "name": "Jobs To Be Done - Process Variant",
+  "bucket": [
+    "optimization"
+  ],
+  "what_it_is": "Applying JTBD logic to internal processes - \"what job is this process hired to do?\" to determine if it's solving the right problem or just persisting out of habit.",
+  "core_mechanic": "\"What outcome is this actually supposed to produce?\" Then: \"Is this process the best way to produce that outcome, or is it a historical artifact?\" Separate the job (always valid) from the current solution (possibly outdated).",
+  "when_to_use": "Optimizing a long-running process that hasn't been questioned / The process works but people resent it / Automation changes the cost structure of alternatives",
+  "when_not_to_use": "New processes where the job isn't yet clear / Process is clearly fit-for-purpose and you're asking how to improve it",
+  "ideaos_application": "Agent 3 identifies the job the process is hired to do (distinct from what it currently does), surfaces where the current process over-engineers or under-delivers on that job, proposes a redesign direction.",
+  "cross_domain_variants": []
+}

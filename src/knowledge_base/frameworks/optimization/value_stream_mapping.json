@@ -1,0 +1,12 @@
+{
+  "name": "Value Stream Mapping",
+  "bucket": [
+    "optimization"
+  ],
+  "what_it_is": "A lean tool visualizing all steps in a process that deliver value - and identifying waste between them.",
+  "core_mechanic": "Map every step from input to output. Record time in each step and wait time between steps. Calculate value-added ratio (work time / total elapsed time). Identify biggest wait/waste sources. Design future state. Implement highest-impact change first.",
+  "when_to_use": "A workflow feels inefficient but can't pinpoint where the waste is / Elapsed time much longer than actual work time / Handoff problems between people or teams",
+  "when_not_to_use": "Knowledge work hard to map linearly (use Systems Thinking) / Strategy questions",
+  "ideaos_application": "Agent 3 maps top 5-7 workflow steps, estimates relative wait times between each, identifies the highest-waste handoff, proposes the one intervention with highest leverage on cycle time.",
+  "cross_domain_variants": []
+}

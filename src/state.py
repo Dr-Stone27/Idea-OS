@@ -81,6 +81,7 @@ class IdeaOSState(TypedDict):
     
     # We store the output of each agent. In P1, we only run once (mostly), 
     # but the loop-back might overwrite listener_output and skeptic_output.
+    framework_context: Optional[list[dict]]
     listener_output: Optional[ListenerOutput]
     skeptic_output: Optional[SkepticOutput]
     architect_output: Optional[ArchitectOutput]

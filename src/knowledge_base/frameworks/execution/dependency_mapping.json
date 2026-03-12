@@ -1,0 +1,12 @@
+{
+  "name": "Dependency Mapping",
+  "bucket": [
+    "execution"
+  ],
+  "what_it_is": "Identifying sequential and parallel dependencies in an execution plan - what must happen before what, and what can run simultaneously.",
+  "core_mechanic": "List all tasks. Draw dependency arrows. Identify critical path (determines minimum completion time). Flag external dependencies. Identify float (tasks that can slip without affecting critical path).",
+  "when_to_use": "Complex execution with multiple workstreams / Timelines feel uncertain and you need to understand why / Before committing to a deadline / Need to know what to accelerate",
+  "when_not_to_use": "Simple linear execution / Exploratory work where steps aren't yet known",
+  "ideaos_application": "Agent 3 maps top 3-5 dependencies, identifies the critical path item, flags the external dependency most likely to cause a slip.",
+  "cross_domain_variants": []
+}

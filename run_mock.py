@@ -4,7 +4,7 @@ from src.graph import route_after_judge, increment_loop
 from main import print_result
 
 from src.agents.mock_agents import (
-    mock_router, mock_listener, mock_skeptic, 
+    mock_router, mock_retrieve_context, mock_listener, mock_skeptic, 
     mock_architect, mock_judge, mock_strategist
 )
 
@@ -12,6 +12,7 @@ def build_mock_graph():
     workflow = StateGraph(IdeaOSState)
     
     workflow.add_node("router", mock_router)
+    workflow.add_node("retrieve_context", mock_retrieve_context)
     workflow.add_node("listener", mock_listener)
     workflow.add_node("skeptic", mock_skeptic)
     workflow.add_node("architect", mock_architect)
@@ -20,7 +21,8 @@ def build_mock_graph():
     workflow.add_node("increment_loop", increment_loop)
 
     workflow.set_entry_point("router")
-    workflow.add_edge("router", "listener")
+    workflow.add_edge("router", "retrieve_context")
+    workflow.add_edge("retrieve_context", "listener")
     workflow.add_edge("listener", "skeptic")
     workflow.add_edge("skeptic", "architect")
     workflow.add_edge("architect", "judge")

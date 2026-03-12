@@ -1,0 +1,15 @@
+{
+  "name": "Jobs To Be Done (JTBD)",
+  "bucket": [
+    "product"
+  ],
+  "what_it_is": "Understanding what someone is \"hiring\" a product to do - the underlying motivation behind a behavior.",
+  "core_mechanic": "Reframe from \"what does this feature do?\" to \"what progress is the user trying to make?\" Identify functional, emotional, social jobs. Map hiring and firing triggers.",
+  "when_to_use": "Can't articulate why users would switch to what you're building / User research returns surface requests not real motivations / Need an angle competitors missed / A feature isn't used despite demand signals",
+  "when_not_to_use": "Already have validated job statements and are in execution mode / Problem is operational / Optimizing a metric not discovering a need",
+  "ideaos_application": "Agent 3 maps core question to a job statement, identifies competing solutions being fired, surfaces the emotional/social job the functional job is masking.",
+  "cross_domain_variants": [
+    "Career decisions (\"what job am I hiring this role to do?\")",
+    "learning (\"what job am I hiring this course to do?\")"
+  ]
+}

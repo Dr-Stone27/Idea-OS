@@ -1,0 +1,12 @@
+{
+  "name": "PDCA Cycle (Plan-Do-Check-Act)",
+  "bucket": [
+    "optimization"
+  ],
+  "what_it_is": "A continuous improvement loop for systematic evidence-based optimization of any process.",
+  "core_mechanic": "Plan (identify problem, design change hypothesis), Do (implement at small scale), Check (measure results against hypothesis), Act (standardize if successful; redesign if not). Most improvement efforts skip Check - that's the failure mode.",
+  "when_to_use": "Improving a repeating process where you have data / Past optimization attempts haven't stuck / Systematic quality improvement across any operational domain",
+  "when_not_to_use": "One-time decisions / Strategic direction questions / No baseline measurement exists",
+  "ideaos_application": "Agent 3 writes the full PDCA cycle for the specific optimization - Plan hypothesis, smallest possible Do test, Check metric, Act criteria. Makes the Do step small enough to run within 2 weeks.",
+  "cross_domain_variants": []
+}

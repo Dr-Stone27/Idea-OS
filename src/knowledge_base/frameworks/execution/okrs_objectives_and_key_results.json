@@ -1,0 +1,12 @@
+{
+  "name": "OKRs (Objectives and Key Results)",
+  "bucket": [
+    "execution"
+  ],
+  "what_it_is": "Separating ambitious directional objectives from measurable time-bound key results indicating progress toward them.",
+  "core_mechanic": "One Objective (qualitative, inspiring, directional). 3-5 Key Results (quantitative, time-bound, outcomes not activities). 70% attainment = success - 100% means the goal wasn't ambitious enough.",
+  "when_to_use": "Translating strategic direction into execution targets / Aligning a team around shared success criteria / Clarity on destination but not how to measure progress",
+  "when_not_to_use": "Operational tasks that are just work / Very short time horizons (under 4 weeks) / Goal is still being defined",
+  "ideaos_application": "Agent 3 drafts one Objective and 3 Key Results. Checks that Key Results are outcomes not activities, measurable, and would genuinely indicate the Objective was achieved.",
+  "cross_domain_variants": []
+}

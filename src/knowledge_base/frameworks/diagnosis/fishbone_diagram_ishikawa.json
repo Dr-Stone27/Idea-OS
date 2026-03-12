@@ -1,0 +1,12 @@
+{
+  "name": "Fishbone Diagram (Ishikawa)",
+  "bucket": [
+    "diagnosis"
+  ],
+  "what_it_is": "Structured visualization of all possible causes organized into categories - People, Process, Technology, Environment, Materials, Measurement.",
+  "core_mechanic": "Problem at the head. Six category bones. Brainstorm causes per category. Identify most likely and most testable. Prioritize by likelihood x testability.",
+  "when_to_use": "Multiple possible causes and need to explore broadly before narrowing / Team diagnosis / When Five Whys has surfaced multiple branching answers / Post-mortems on complex failures",
+  "when_not_to_use": "Simple linear cause-effect (Five Whys is sufficient) / When speed is needed",
+  "ideaos_application": "Agent 3 maps most likely causes per category, highlights 2 categories with highest density of plausible causes, recommends first investigation action for each.",
+  "cross_domain_variants": []
+}

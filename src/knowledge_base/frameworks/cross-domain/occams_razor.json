@@ -1,0 +1,12 @@
+{
+  "name": "Occam's Razor",
+  "bucket": [
+    "cross-domain"
+  ],
+  "what_it_is": "Among competing hypotheses that equally explain the evidence, prefer the simplest one.",
+  "core_mechanic": "When you have multiple explanations or solutions, ask: \"Does the more complex option explain the evidence better than the simpler one?\" If not, default to simple. Apply as a filter after generation - don't let it prevent generating complex hypotheses first.",
+  "when_to_use": "Diagnosis sessions with multiple competing hypotheses. Decision sessions with over-engineered solutions. Whenever analysis has become more complex than the problem warrants.",
+  "when_not_to_use": "When genuine complexity is warranted and the simpler explanation actually misses key evidence.",
+  "ideaos_application": "Agent 3 applies Occam's Razor as a final filter - if the simplest explanation accounts for the evidence, flags that the more complex architecture being considered may not be warranted.",
+  "cross_domain_variants": []
+}

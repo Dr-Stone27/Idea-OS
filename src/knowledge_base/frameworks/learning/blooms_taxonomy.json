@@ -1,0 +1,12 @@
+{
+  "name": "Bloom's Taxonomy",
+  "bucket": [
+    "learning"
+  ],
+  "what_it_is": "A hierarchy of cognitive skills: Remember, Understand, Apply, Analyze, Evaluate, Create.",
+  "core_mechanic": "Map current learning level and target level. Design activities appropriate to each level - reading for Remember/Understand, problems for Apply, critique for Analyze, building for Create.",
+  "when_to_use": "Designing a learning plan for a new skill / Feel you understand something but can't use it (stuck at Understand not Apply) / Assessing whether a resource matches what you need",
+  "when_not_to_use": "Already know what to practice / Quick information lookup",
+  "ideaos_application": "Agent 3 maps current Bloom's level from input, identifies target level, designs 3 specific activities to climb from current to target.",
+  "cross_domain_variants": []
+}

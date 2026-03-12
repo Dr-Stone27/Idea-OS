@@ -1,0 +1,12 @@
+{
+  "name": "North Star Metric Framework",
+  "bucket": [
+    "product"
+  ],
+  "what_it_is": "Identifying the single metric capturing the core value your product delivers - the one metric that if it grows, means everything is working.",
+  "core_mechanic": "Define the metric at intersection of user and business value. Map leading input metrics beneath it. Identify counter-metrics to prevent gaming.",
+  "when_to_use": "Team optimizing different metrics and pulling in different directions / Entering a new product phase / No shared definition of success",
+  "when_not_to_use": "Very early stage (need data to know what value delivered looks like) / Working on a feature not product strategy / Problem is execution not direction",
+  "ideaos_application": "Agent 3 drafts a candidate North Star, maps 3 input metrics beneath it, identifies the counter-metric.",
+  "cross_domain_variants": []
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Regret Minimization Framework",
+  "bucket": [
+    "decision"
+  ],
+  "what_it_is": "Project yourself to age 80 and ask which choice you would regret not having made.",
+  "core_mechanic": "Separate short-term discomfort from long-term regret. Identify which decision you'd look back on wishing you'd made differently. Useful when fear or inertia is distorting analysis.",
+  "when_to_use": "Personal/career decisions where emotion is clouding analysis / Choosing between safe path and uncertain higher-upside one / Done analytical work and still can't decide",
+  "when_not_to_use": "Operational or tactical decisions / Reversible choices / Pure product decisions",
+  "ideaos_application": "Agent 3 frames the decision from the 80-year-old perspective, identifies which option carries higher regret risk, separates reversible from irreversible elements.",
+  "cross_domain_variants": [
+    "Career pivots",
+    "geographic moves",
+    "major life decisions"
+  ]
+}

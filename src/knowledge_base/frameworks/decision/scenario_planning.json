@@ -1,0 +1,12 @@
+{
+  "name": "Scenario Planning",
+  "bucket": [
+    "decision"
+  ],
+  "what_it_is": "Making decisions robust across multiple plausible futures rather than optimizing for a single predicted outcome.",
+  "core_mechanic": "Identify 2 most uncertain and most impactful variables. Create 2x2 from extremes. Describe each quadrant as a vivid future. Best decision performs adequately across all four, not brilliantly in one.",
+  "when_to_use": "High uncertainty environment / Long time horizon decisions / Strategic decisions where betting on one future is too risky",
+  "when_not_to_use": "Short-term operational decisions / Key variables are actually predictable / Need a single clear answer fast",
+  "ideaos_application": "Agent 3 identifies the 2 most uncertain variables, builds the 2x2, describes each scenario in 2 sentences, rates the proposed direction in each quadrant. Produces a regret minimization recommendation.",
+  "cross_domain_variants": []
+}

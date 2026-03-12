@@ -1,0 +1,12 @@
+{
+  "name": "Opportunity Solution Tree (OST)",
+  "bucket": [
+    "product"
+  ],
+  "what_it_is": "A visual framework connecting desired outcomes to user problems to solution ideas to experiments in a structured hierarchy.",
+  "core_mechanic": "Start from one outcome. Branch into opportunity spaces. Branch from opportunities into solutions. Design experiments. Forces problem-first thinking.",
+  "when_to_use": "Clear outcome metric but too many competing solution ideas / Team keeps jumping to solutions before problems are mapped / Need to prioritize problem spaces not features",
+  "when_not_to_use": "No defined outcome yet (go to North Star first) / Time-constrained execution sprint / Problem space already narrowed and validated",
+  "ideaos_application": "Agent 3 builds three levels - outcome, top 3 opportunity spaces, 2 solution ideas per opportunity. Forces validation you're working on the right opportunity.",
+  "cross_domain_variants": []
+}

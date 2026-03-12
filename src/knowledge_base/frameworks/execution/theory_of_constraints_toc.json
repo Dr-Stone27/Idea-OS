@@ -1,0 +1,12 @@
+{
+  "name": "Theory of Constraints (TOC)",
+  "bucket": [
+    "execution"
+  ],
+  "what_it_is": "Every system has exactly one constraint limiting throughput - identify and exploit it before optimizing anything else.",
+  "core_mechanic": "Identify the constraint. Exploit it (max value without additional investment). Subordinate everything else to it. Elevate (invest to remove it). Repeat - once removed, a new constraint appears.",
+  "when_to_use": "Optimizations aren't producing results / Multiple things feel like problems but can't find focus / Execution is slow and cause isn't obvious / Team capacity is stretched",
+  "when_not_to_use": "Strategy formation - TOC optimizes existing systems / The constraint is genuinely unclear and you lack data",
+  "ideaos_application": "Agent 3 identifies the most likely constraint, maps what is being sub-optimized by focusing on non-constraints, produces a \"stop doing this\" list alongside the constraint exploitation recommendation.",
+  "cross_domain_variants": []
+}

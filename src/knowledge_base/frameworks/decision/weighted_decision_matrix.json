@@ -1,0 +1,12 @@
+{
+  "name": "Weighted Decision Matrix",
+  "bucket": [
+    "decision"
+  ],
+  "what_it_is": "Choosing between options by scoring each against importance-weighted criteria.",
+  "core_mechanic": "Options as columns, criteria as rows. Assign weights (1-5). Score options per criterion (1-5). Multiply and sum. The weighting process reveals what you actually value.",
+  "when_to_use": "Multiple viable options and choice isn't obvious / Different stakeholders value different things / Need to stress-test an intuition",
+  "when_not_to_use": "Only one real option (that's justification) / Primarily values-based decision / Time-critical decisions",
+  "ideaos_application": "Agent 3 builds the matrix, proposes 4-6 criteria, scores options, and flags which criterion re-weighting would flip the decision.",
+  "cross_domain_variants": []
+}

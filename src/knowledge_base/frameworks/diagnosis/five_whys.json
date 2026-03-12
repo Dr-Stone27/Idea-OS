@@ -1,0 +1,12 @@
+{
+  "name": "Five Whys",
+  "bucket": [
+    "diagnosis"
+  ],
+  "what_it_is": "Ask \"why\" five times in succession to move from symptom to root cause.",
+  "core_mechanic": "State the problem. Ask why. Take the answer, ask why again. Repeat five times. The fifth answer is typically closer to the systemic cause. Answers must be specific and observable.",
+  "when_to_use": "A specific failure occurred and the cause isn't clear / Solving the same problem repeatedly / Quick initial diagnosis / Process problems where cause-to-effect is traceable",
+  "when_not_to_use": "Complex systems with multiple interacting causes (use Fishbone or Systems Thinking) / Don't have data to answer each \"why\" honestly / When politics are involved",
+  "ideaos_application": "Agent 3 runs the Five Whys chain on Agent 1's problem statement. Flags where the chain branches (multiple possible answers) - those are the investigation priorities.",
+  "cross_domain_variants": []
+}

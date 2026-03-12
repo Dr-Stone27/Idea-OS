@@ -1,0 +1,12 @@
+{
+  "name": "CIRCLES Method",
+  "bucket": [
+    "product"
+  ],
+  "what_it_is": "Structured framework for scoping product solutions - Comprehend, Identify, Report, Cut, List, Evaluate, Summarize.",
+  "core_mechanic": "Walk through each step to prevent jumping to solutions before the problem is fully understood.",
+  "when_to_use": "Feature scoping where requirements are fuzzy / Preparing for design review / \"What to build\" conflated with \"what problem to solve\"",
+  "when_not_to_use": "Strategic decisions (CIRCLES is feature-level) / Already have a clear problem definition",
+  "ideaos_application": "Agent 3 walks through first four steps (C-I-R-C) to sharpen scope, surfaces top 2 solution options with explicit tradeoff statements.",
+  "cross_domain_variants": []
+}

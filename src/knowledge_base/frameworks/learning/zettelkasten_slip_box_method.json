@@ -1,0 +1,12 @@
+{
+  "name": "Zettelkasten (Slip-Box Method)",
+  "bucket": [
+    "learning"
+  ],
+  "what_it_is": "A knowledge system where ideas are stored as atomic notes linked by explicit connections - building a network of thought that compounds over time.",
+  "core_mechanic": "Every idea gets its own atomic note. Each note links to related notes explicitly. Notes in own words, not copied. Over time, clusters surface non-obvious connections.",
+  "when_to_use": "Learning across multiple domains and want insights to compound / Consuming a lot of input but retaining little / Long-term learning where the goal is synthesis",
+  "when_not_to_use": "Short-term goal-specific learning / When your bottleneck is input not synthesis",
+  "ideaos_application": "Agent 3 identifies the 3 most important atomic ideas in the input, writes them as Zettelkasten-style notes with explicit link prompts.",
+  "cross_domain_variants": []
+}

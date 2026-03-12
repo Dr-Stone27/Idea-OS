@@ -1,0 +1,12 @@
+{
+  "name": "Spaced Repetition",
+  "bucket": [
+    "learning"
+  ],
+  "what_it_is": "Scheduling review of material at increasing intervals based on recall difficulty - maximizing retention with minimum time.",
+  "core_mechanic": "Review at day 1, 3, 7, 14, 30+. Material recalled easily gets longer intervals. Struggled material gets shorter. Works for any retrievable knowledge.",
+  "when_to_use": "Large body of facts or concepts needing long-term retention / High-stakes tests or certifications / Building fluency requiring fast retrieval",
+  "when_not_to_use": "Conceptual/relational knowledge requiring understanding not memorization / Application practice more valuable than recall / Short-term cramming",
+  "ideaos_application": "Agent 3 identifies which components require retention vs. understanding vs. application, prescribes the right method for each.",
+  "cross_domain_variants": []
+}

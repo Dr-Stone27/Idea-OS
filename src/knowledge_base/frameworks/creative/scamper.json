@@ -1,0 +1,12 @@
+{
+  "name": "SCAMPER",
+  "bucket": [
+    "creative"
+  ],
+  "what_it_is": "A structured ideation checklist - Substitute, Combine, Adapt, Modify/Magnify, Put to other uses, Eliminate, Reverse/Rearrange - applied to an existing idea to generate variations.",
+  "core_mechanic": "Take the existing idea. Run it through each SCAMPER prompt. Generate at least one response per prompt. Most outputs will be unusable - that's fine. Escape the gravitational pull of the obvious solution.",
+  "when_to_use": "Ideation on an existing concept needing variation or improvement / Team converging on one obvious solution too quickly / Looking for differentiation when obvious options are already taken",
+  "when_not_to_use": "No starting concept to SCAMPER from / The problem requires first-principles thinking not variation on existing",
+  "ideaos_application": "Agent 3 runs the input concept through all 7 prompts, selects the 2 most interesting outputs, develops each one level further.",
+  "cross_domain_variants": []
+}

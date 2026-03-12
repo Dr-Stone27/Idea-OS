@@ -1,0 +1,12 @@
+{
+  "name": "The Map Is Not The Territory",
+  "bucket": [
+    "cross-domain"
+  ],
+  "what_it_is": "Every framework, model, and mental map is a simplification of reality - useful precisely because it simplifies, dangerous when mistaken for complete truth.",
+  "core_mechanic": "When applying any framework, ask: \"What is this leaving out?\" and \"Under what conditions would this model give the wrong answer?\" Treat framework output as a starting point for judgment, not the end point.",
+  "when_to_use": "Every session. This is a meta-principle not a standalone framework.",
+  "when_not_to_use": "N/A - always relevant at least as a background check.",
+  "ideaos_application": "Agent 3 includes a one-sentence \"map limitation\" note at the end of every framework application: what this framework cannot see that may still be relevant.",
+  "cross_domain_variants": []
+}

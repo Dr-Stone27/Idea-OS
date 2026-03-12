@@ -1,4 +1,5 @@
 import time
+import json
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from src.state import IdeaOSState, ArchitectOutput
@@ -33,6 +34,9 @@ Critical Challenges:
 
 Questions You Must Answer:
 {questions}
+
+FRAMEWORK CONTEXT (Retrieved from Knowledge Base):
+{framework_context}
 """)
     ])
     
@@ -45,7 +49,8 @@ Questions You Must Answer:
         "context": state["listener_output"].context,
         "skeptic_verdict": state["skeptic_output"].skeptic_verdict,
         "challenges": "\n".join(f"- {c}" for c in state["skeptic_output"].critical_challenges),
-        "questions": "\n".join(f"- {q}" for q in state["skeptic_output"].questions_for_architect)
+        "questions": "\n".join(f"- {q}" for q in state["skeptic_output"].questions_for_architect),
+        "framework_context": json.dumps(state.get("framework_context", []), indent=2)
     })
     
     time.sleep(4)

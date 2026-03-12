@@ -1,0 +1,12 @@
+{
+  "name": "Wardley Maps",
+  "bucket": [
+    "product"
+  ],
+  "what_it_is": "Strategic mapping plotting value chain components by user visibility (y-axis) and evolutionary maturity (x-axis: genesis to commodity).",
+  "core_mechanic": "Map all components to deliver your user need. Place on evolution axis. Identify what to commoditize vs. what to own. Spot where movement creates opportunity or threat.",
+  "when_to_use": "Build vs. buy decisions / Identifying where to invest for competitive advantage / Industry dynamics shifting / Strategic bets need grounding in how the landscape evolves",
+  "when_not_to_use": "Solving a user problem not a positioning problem / Not enough domain context to map accurately / Short-term decisions",
+  "ideaos_application": "Agent 3 maps top 5-7 value chain components, places on evolution axis, flags components in motion, identifies the strategic bet implied by current position.",
+  "cross_domain_variants": []
+}

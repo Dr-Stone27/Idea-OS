@@ -1,0 +1,12 @@
+{
+  "name": "First Principles Thinking",
+  "bucket": [
+    "diagnosis"
+  ],
+  "what_it_is": "Breaking a problem to its most fundamental truths and rebuilding from there - rather than reasoning by analogy from existing solutions.",
+  "core_mechanic": "Ask: \"What do we know for certain is true?\" Strip assumptions, conventions, and analogies until only verified truths remain. Ask: \"What can we build from these truths?\"",
+  "when_to_use": "Existing solutions are hitting a ceiling / Inherited a problem framing that might itself be wrong / Competitive differentiation requires something fundamentally different / A constraint you're designing around might not be real",
+  "when_not_to_use": "Analogical reasoning is sufficient and speed matters / Operational problems / Domain fundamentals are genuinely uncertain",
+  "ideaos_application": "Agent 3 identifies 3 core assumptions in the problem statement, challenges each with \"is this true or just convention?\", proposes one direction only visible after removing the most constraining assumption.",
+  "cross_domain_variants": []
+}

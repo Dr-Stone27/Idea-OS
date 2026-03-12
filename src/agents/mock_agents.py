@@ -11,6 +11,10 @@ def mock_router(state: IdeaOSState) -> dict:
         ambiguity_note=None
     )}
 
+def mock_retrieve_context(state: IdeaOSState) -> dict:
+    print("--- PRE-PIPELINE: RETRIEVING CONTEXT (MOCK) ---")
+    return {"framework_context": [{"name": "Mock Framework", "bucket": ["product"], "structure": "Mock structure"}]}
+
 def mock_listener(state: IdeaOSState) -> dict:
     print("--- AGENT 1: LISTENER (MOCK) ---")
     return {"listener_output": ListenerOutput(

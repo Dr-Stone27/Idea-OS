@@ -1,0 +1,12 @@
+{
+  "name": "How Might We (HMW)",
+  "bucket": [
+    "creative"
+  ],
+  "what_it_is": "A reframing technique converting problem statements into open opportunity questions - replacing \"the problem is X\" with \"how might we achieve Y?\"",
+  "core_mechanic": "Take the challenge. Rewrite as \"How Might We...?\" Wide enough to allow creative solutions, narrow enough to provide direction. Too wide = useless. Too narrow = already a solution. Find the right abstraction level.",
+  "when_to_use": "Problem statements framed as solutions in disguise / Design challenges where you want solution diversity / When the Skeptic identified the problem framing itself is wrong",
+  "when_not_to_use": "Problem is well-defined and solutions are needed - HMW reframes problems, doesn't generate solutions / Execution mode",
+  "ideaos_application": "Agent 3 generates 3 HMW questions at different abstraction levels (narrow, medium, wide) and recommends which level to work from based on the Router's mode tag.",
+  "cross_domain_variants": []
+}

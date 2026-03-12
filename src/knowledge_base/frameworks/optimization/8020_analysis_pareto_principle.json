@@ -1,0 +1,12 @@
+{
+  "name": "80/20 Analysis (Pareto Principle)",
+  "bucket": [
+    "optimization"
+  ],
+  "what_it_is": "Roughly 80% of effects come from 20% of causes - find where value is concentrated.",
+  "core_mechanic": "List all inputs/activities. Quantify contribution to output. Rank. Identify top 20% driving 80% of results. Decide to double down on the 20% or address the long tail for strategic reasons. Be intentional either way.",
+  "when_to_use": "Spread too thin and need to find focus / Resource constraints force a choice / Effort and output feel misaligned",
+  "when_not_to_use": "All inputs contribute roughly equally / The long tail matters for strategic reasons (trust, compliance, etc.)",
+  "ideaos_application": "Agent 3 maps activities to estimated outputs, identifies the top 20% hypothesis, proposes what to stop doing to free capacity for highest-leverage activities.",
+  "cross_domain_variants": []
+}

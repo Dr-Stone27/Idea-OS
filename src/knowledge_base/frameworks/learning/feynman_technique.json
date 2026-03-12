@@ -1,0 +1,12 @@
+{
+  "name": "Feynman Technique",
+  "bucket": [
+    "learning"
+  ],
+  "what_it_is": "Testing depth of understanding by explaining a concept in plain language as if teaching someone with no background.",
+  "core_mechanic": "Write the concept. Explain in plain language. Identify where explanation breaks down - those are the gaps. Return to source material for exactly those gaps. Re-explain. Repeat until simple and complete.",
+  "when_to_use": "Consumed a lot of material but unsure you understand it / Can explain using field vocabulary but not plain language / Want to identify precise boundaries of what you know",
+  "when_not_to_use": "Early exposure to a new domain - need input before you can explain / When the goal is breadth not depth",
+  "ideaos_application": "Agent 3 identifies where the input explanation becomes jargon-dependent or hand-wavy. Produces a 3-step learning prescription: what to understand first, what depends on it, what becomes possible once both are understood.",
+  "cross_domain_variants": []
+}

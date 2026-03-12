@@ -1,0 +1,12 @@
+{
+  "name": "Inversion",
+  "bucket": [
+    "cross-domain"
+  ],
+  "what_it_is": "Instead of \"how do I achieve X?\", ask \"what would guarantee I fail at X?\" then avoid those things.",
+  "core_mechanic": "State the goal. Invert it completely. Generate all the ways you could cause the opposite outcome. Treat each as a risk to avoid. Combine with the forward analysis.",
+  "when_to_use": "Any session where optimism bias might be limiting analysis. Pairs especially well with the Skeptic.",
+  "when_not_to_use": "When failure modes are already obvious and the forward analysis is underdeveloped.",
+  "ideaos_application": "Agent 3 runs inversion on its own output as a self-check - \"if this structure were wrong, what would make it wrong?\" - before handoff to Agent 4.",
+  "cross_domain_variants": []
+}
